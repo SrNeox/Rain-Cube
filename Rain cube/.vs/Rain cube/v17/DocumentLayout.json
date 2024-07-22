@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Unity Project\\Unity Git\\Rain-Cube\\Rain cube\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D38B250-0A29-11DC-37BA-BBBF5C8963D0}|Assembly-CSharp.csproj|C:\\Unity Project\\Unity Git\\Rain-Cube\\Rain cube\\assets\\scripts\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D38B250-0A29-11DC-37BA-BBBF5C8963D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D38B250-0A29-11DC-37BA-BBBF5C8963D0}|Assembly-CSharp.csproj|C:\\Unity Project\\Unity Git\\Rain-Cube\\Rain cube\\assets\\scripts\\bomb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D38B250-0A29-11DC-37BA-BBBF5C8963D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bomb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D38B250-0A29-11DC-37BA-BBBF5C8963D0}|Assembly-CSharp.csproj|c:\\unity project\\unity git\\rain-cube\\rain cube\\assets\\scripts\\ground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D38B250-0A29-11DC-37BA-BBBF5C8963D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D38B250-0A29-11DC-37BA-BBBF5C8963D0}|Assembly-CSharp.csproj|C:\\Unity Project\\Unity Git\\Rain-Cube\\Rain cube\\assets\\scripts\\pool\\poolobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D38B250-0A29-11DC-37BA-BBBF5C8963D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pool\\poolobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D38B250-0A29-11DC-37BA-BBBF5C8963D0}|Assembly-CSharp.csproj|c:\\unity project\\unity git\\rain-cube\\rain cube\\assets\\scripts\\spawnerbomb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D38B250-0A29-11DC-37BA-BBBF5C8963D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnerbomb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D38B250-0A29-11DC-37BA-BBBF5C8963D0}|Assembly-CSharp.csproj|C:\\Unity Project\\Unity Git\\Rain-Cube\\Rain cube\\assets\\scripts\\pool\\poolcube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D38B250-0A29-11DC-37BA-BBBF5C8963D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pool\\poolcube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0D38B250-0A29-11DC-37BA-BBBF5C8963D0}|Assembly-CSharp.csproj|C:\\Unity Project\\Unity Git\\Rain-Cube\\Rain cube\\assets\\scripts\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D38B250-0A29-11DC-37BA-BBBF5C8963D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0D38B250-0A29-11DC-37BA-BBBF5C8963D0}|Assembly-CSharp.csproj|C:\\Unity Project\\Unity Git\\Rain-Cube\\Rain cube\\assets\\scripts\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D38B250-0A29-11DC-37BA-BBBF5C8963D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D38B250-0A29-11DC-37BA-BBBF5C8963D0}|Assembly-CSharp.csproj|c:\\unity project\\unity git\\rain-cube\\rain cube\\assets\\scripts\\pool\\poolbomb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D38B250-0A29-11DC-37BA-BBBF5C8963D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pool\\poolbomb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D38B250-0A29-11DC-37BA-BBBF5C8963D0}|Assembly-CSharp.csproj|C:\\Unity Project\\Unity Git\\Rain-Cube\\Rain cube\\assets\\scripts\\pool\\poolobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D38B250-0A29-11DC-37BA-BBBF5C8963D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pool\\poolobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,39 +42,65 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Ground.cs",
-              "DocumentMoniker": "C:\\Unity Project\\Unity Git\\Rain-Cube\\Rain cube\\Assets\\Scripts\\Ground.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Ground.cs",
-              "ToolTip": "C:\\Unity Project\\Unity Git\\Rain-Cube\\Rain cube\\Assets\\Scripts\\Ground.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Ground.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAmAAAA",
+              "DocumentIndex": 5,
+              "Title": "PoolBomb.cs",
+              "DocumentMoniker": "C:\\Unity Project\\Unity Git\\Rain-Cube\\Rain cube\\Assets\\Scripts\\Pool\\PoolBomb.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Pool\\PoolBomb.cs",
+              "ToolTip": "C:\\Unity Project\\Unity Git\\Rain-Cube\\Rain cube\\Assets\\Scripts\\Pool\\PoolBomb.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Pool\\PoolBomb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T14:16:25.666Z",
+              "WhenOpened": "2024-07-22T14:12:41.581Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "PoolCube.cs",
               "DocumentMoniker": "C:\\Unity Project\\Unity Git\\Rain-Cube\\Rain cube\\Assets\\Scripts\\Pool\\PoolCube.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Pool\\PoolCube.cs",
               "ToolTip": "C:\\Unity Project\\Unity Git\\Rain-Cube\\Rain cube\\Assets\\Scripts\\Pool\\PoolCube.cs",
               "RelativeToolTip": "Assets\\Scripts\\Pool\\PoolCube.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAAAAAArAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T12:53:45.873Z",
+              "WhenOpened": "2024-07-22T13:11:15.511Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Bomb.cs",
+              "DocumentMoniker": "C:\\Unity Project\\Unity Git\\Rain-Cube\\Rain cube\\Assets\\Scripts\\Bomb.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Bomb.cs",
+              "ToolTip": "C:\\Unity Project\\Unity Git\\Rain-Cube\\Rain cube\\Assets\\Scripts\\Bomb.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Bomb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T13:09:53.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SpawnerBomb.cs",
+              "DocumentMoniker": "C:\\Unity Project\\Unity Git\\Rain-Cube\\Rain cube\\Assets\\Scripts\\SpawnerBomb.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnerBomb.cs",
+              "ToolTip": "C:\\Unity Project\\Unity Git\\Rain-Cube\\Rain cube\\Assets\\Scripts\\SpawnerBomb.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpawnerBomb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T13:09:10.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Cube.cs",
               "DocumentMoniker": "C:\\Unity Project\\Unity Git\\Rain-Cube\\Rain cube\\Assets\\Scripts\\Cube.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Cube.cs",
               "ToolTip": "C:\\Unity Project\\Unity Git\\Rain-Cube\\Rain cube\\Assets\\Scripts\\Cube.cs",
               "RelativeToolTip": "Assets\\Scripts\\Cube.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-25T15:00:43.933Z",
               "EditorCaption": ""
@@ -79,19 +113,20 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Spawner.cs",
               "ToolTip": "C:\\Unity Project\\Unity Git\\Rain-Cube\\Rain cube\\Assets\\Scripts\\Spawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\Spawner.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAiAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCkAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T14:48:12.8Z"
+              "WhenOpened": "2024-06-25T14:48:12.8Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "PoolObject.cs",
               "DocumentMoniker": "C:\\Unity Project\\Unity Git\\Rain-Cube\\Rain cube\\Assets\\Scripts\\Pool\\PoolObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Pool\\PoolObject.cs",
               "ToolTip": "C:\\Unity Project\\Unity Git\\Rain-Cube\\Rain cube\\Assets\\Scripts\\Pool\\PoolObject.cs",
               "RelativeToolTip": "Assets\\Scripts\\Pool\\PoolObject.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAuwBoAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-25T14:52:48.498Z",
               "EditorCaption": ""

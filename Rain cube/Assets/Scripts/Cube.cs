@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using Random = UnityEngine.Random; 
 
 [RequireComponent(typeof(Renderer))]
 
@@ -26,7 +27,7 @@ public class Cube : MonoBehaviour
         if (_touchedGround == false && collision.gameObject.TryGetComponent(out Ground ground))
         {
             _touchedGround = true;
-            SwitchColor(UnityEngine.Random.ColorHSV());
+            SwitchColor(Random.ColorHSV());
             StartCoroutine(InvokeEvent());
         }
     }

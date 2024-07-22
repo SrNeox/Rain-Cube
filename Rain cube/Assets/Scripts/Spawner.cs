@@ -6,6 +6,7 @@ public class Spawner : MonoBehaviour
 {
     [SerializeField] private Transform _spawnPoint;
     [SerializeField] private PoolCube _poolCube;
+    [SerializeField] private SpawnerBomb _spawnerBomb; 
 
     private WaitForSeconds delay = new(1);
 
@@ -38,5 +39,6 @@ public class Spawner : MonoBehaviour
     {
         cube._isFell -= ReturnCube;
         _poolCube.ReturnObject(cube);
+        _spawnerBomb.Spawn(cube.transform);
     }
 }
