@@ -7,6 +7,8 @@ public class PoolObject<T> : MonoBehaviour where T : MonoBehaviour
 
     private Queue<T> _poolObject = new();
 
+    public int CountObject() => _poolObject.Count; 
+
     public T GetObject()
     {
         if (_poolObject.Count == 0)

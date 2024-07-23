@@ -358,8 +358,9 @@
 "Assets/Scripts/Pool/PoolBomb.cs"
 "Assets/Scripts/Pool/PoolCube.cs"
 "Assets/Scripts/Pool/PoolObject.cs"
-"Assets/Scripts/Spawner.cs"
-"Assets/Scripts/SpawnerBomb.cs"
+"Assets/Scripts/Spawners/SpawnerBase.cs"
+"Assets/Scripts/Spawners/SpawnerBomb.cs"
+"Assets/Scripts/Spawners/SpawnerCube.cs"
 -langversion:9.0
 
 /deterministic

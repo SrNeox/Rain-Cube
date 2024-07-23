@@ -10,11 +10,11 @@ public class Cube : MonoBehaviour
     [SerializeField] private LayerMask _layerGround;
     [SerializeField] private Color _color;
 
-    public bool _touchedGround { get; private set; }
-    public event Action<Cube> _isFell;
-
     private int _minLifeTime = 2;
     private int _maxLifeTime = 5;
+
+    public event Action<Cube> IsFelled;
+    public bool _touchedGround { get; private set; }
 
     private void Start()
     {
@@ -28,17 +28,17 @@ public class Cube : MonoBehaviour
         {
             _touchedGround = true;
             SwitchColor(Random.ColorHSV());
-            StartCoroutine(InvokeEvent());
+            StartCoroutine(InvokeIsFelled());
         }
     }
 
-    private IEnumerator InvokeEvent()
+    private IEnumerator InvokeIsFelled()
     {
         yield return new WaitForSeconds(UnityEngine.Random.Range(_minLifeTime, _maxLifeTime));
 
         SwitchColor(_color);
         _touchedGround = false;
-        _isFell?.Invoke(this);
+        IsFelled?.Invoke(this);
     }
 
     private void SwitchColor(Color color)

@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
+[RequireComponent(typeof(Rigidbody))]
 public class Bomb : MonoBehaviour
 {
     [SerializeField] private Renderer _renderer;
@@ -49,11 +50,11 @@ public class Bomb : MonoBehaviour
 
         foreach (Collider nearbyObject in colliders)
         {
-            Rigidbody rb = nearbyObject.GetComponent<Rigidbody>();
+            Rigidbody rigidbody = nearbyObject.GetComponent<Rigidbody>();
 
-            if (rb != null)
+            if (rigidbody != null)
             {
-                rb.AddExplosionForce(_explosionForce, transform.position, _explosionRadius);
+                rigidbody.AddExplosionForce(_explosionForce, transform.position, _explosionRadius);
             }
         }
 
