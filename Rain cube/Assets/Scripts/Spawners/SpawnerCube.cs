@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class SpawnerCube : SpawnerBase<Cube>
 {
@@ -26,7 +27,7 @@ public class SpawnerCube : SpawnerBase<Cube>
             Cube cube = PoolObject.GetObject();
             cube.transform.position = _spawnPoint.position + newPosition;
             cube.IsFelled += ReturnCube;
-            UpdateUI(TotalObjects++);
+            UpdateScore(ActiveObjects++, PoolObject.CountObject());
 
             yield return delaySpawn;
         }
@@ -36,7 +37,7 @@ public class SpawnerCube : SpawnerBase<Cube>
     {
         cube.IsFelled -= ReturnCube;
         PoolObject.ReturnObject(cube);
-        UpdateUI(TotalObjects--);
+        UpdateScore(ActiveObjects--, PoolObject.CountObject());
         _spawnerBomb.Spawn(cube.transform);
     }
 }

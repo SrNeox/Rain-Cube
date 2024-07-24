@@ -361,6 +361,9 @@
 "Assets/Scripts/Spawners/SpawnerBase.cs"
 "Assets/Scripts/Spawners/SpawnerBomb.cs"
 "Assets/Scripts/Spawners/SpawnerCube.cs"
+"Assets/Scripts/Ui/SpawnUI.cs"
+"Assets/Scripts/Ui/SpawnUIBomb.cs"
+"Assets/Scripts/Ui/SpawnUICube.cs"
 -langversion:9.0
 
 /deterministic

@@ -10,7 +10,7 @@ public class SpawnerBomb : SpawnerBase<Bomb>
         bomb.OnDestroy += ReturnBomb;
         bomb.transform.position = positionCube.position;
         bomb.StartFadeOutAndExplode();
-        UpdateUI(TotalObjects++);
+        UpdateScore(ActiveObjects++, PoolObject.CountObject());
     }
 
     protected override IEnumerator SpawnObject()
@@ -22,6 +22,6 @@ public class SpawnerBomb : SpawnerBase<Bomb>
     {
         bomb.OnDestroy -= ReturnBomb;
         PoolObject.ReturnObject(bomb);
-        UpdateUI(TotalObjects--);
+        UpdateScore(ActiveObjects--, PoolObject.CountObject());
     }
 }

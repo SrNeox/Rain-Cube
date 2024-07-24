@@ -61,11 +61,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Bomb.cs" />
+    <Compile Include="Assets\Scripts\Ui\SpawnUIBomb.cs" />
+    <Compile Include="Assets\Scripts\Ui\SpawnUICube.cs" />
     <Compile Include="Assets\Scripts\Pool\PoolBomb.cs" />
     <Compile Include="Assets\Scripts\Ground.cs" />
     <Compile Include="Assets\Scripts\Pool\PoolObject.cs" />
     <Compile Include="Assets\Scripts\Spawners\SpawnerBomb.cs" />
     <Compile Include="Assets\Scripts\Pool\PoolCube.cs" />
+    <Compile Include="Assets\Scripts\Ui\SpawnUI.cs" />
     <Compile Include="Assets\Scripts\Cube.cs" />
     <Compile Include="Assets\Scripts\Spawners\SpawnerCube.cs" />
     <Compile Include="Assets\Scripts\Spawners\SpawnerBase.cs" />

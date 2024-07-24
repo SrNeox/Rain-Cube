@@ -10,6 +10,8 @@ public class Bomb : MonoBehaviour
     [SerializeField] private float _explosionRadius = 5f;
     [SerializeField] private float _explosionForce = 700f;
 
+    private int _minLifeTime = 2;
+    private int _maxLifeTime = 5;
     private float _fadeDuration;
     private Coroutine _fadeOutAndExplode;
 
@@ -22,7 +24,7 @@ public class Bomb : MonoBehaviour
             StopCoroutine(_fadeOutAndExplode);
         }
 
-        _fadeDuration = Random.Range(2f, 5f);
+        _fadeDuration = Random.Range(_minLifeTime, _maxLifeTime);
         StartCoroutine(FadeOutAndExplode());
     }
 

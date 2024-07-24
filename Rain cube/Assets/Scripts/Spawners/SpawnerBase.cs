@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using TMPro;
 using UnityEngine;
@@ -5,21 +6,12 @@ using UnityEngine;
 public abstract class SpawnerBase<T> : MonoBehaviour where T : MonoBehaviour
 {
     [SerializeField] protected PoolObject<T> PoolObject;
-    [SerializeField] protected TextMeshProUGUI TotalCountText;
-    [SerializeField] protected TextMeshProUGUI ActiveCountText;
 
-    protected int TotalObjects = 0;
+    protected int ActiveObjects = 1;
 
-    private void Start()
-    {
-        StartCoroutine(SpawnObject());   
-    }
+    public event Action<int, int> QuantityChanged;
 
     protected abstract IEnumerator SpawnObject();
 
-    protected virtual void UpdateUI(int totalObject)
-    {
-        TotalCountText.text = $"Total: {totalObject}";
-        ActiveCountText.text = $"Active: {PoolObject.CountObject()}";
-    }
+    public void UpdateScore(int activeObject, int totalObject) => QuantityChanged?.Invoke(activeObject, totalObject);
 }
