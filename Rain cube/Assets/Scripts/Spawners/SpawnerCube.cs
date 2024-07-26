@@ -36,8 +36,7 @@ public class SpawnerCube : SpawnerBase<Cube>
     private void ReturnCube(Cube cube)
     {
         cube.IsFelled -= ReturnCube;
-        PoolObject.ReturnObject(cube);
-        UpdateScore(ActiveObjects--, PoolObject.CountObject());
+        ReturnObjectInPool(cube);
         _spawnerBomb.Spawn(cube.transform);
     }
 }

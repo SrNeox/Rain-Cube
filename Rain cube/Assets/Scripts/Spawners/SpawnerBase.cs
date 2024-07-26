@@ -14,4 +14,10 @@ public abstract class SpawnerBase<T> : MonoBehaviour where T : MonoBehaviour
     protected abstract IEnumerator SpawnObject();
 
     public void UpdateScore(int activeObject, int totalObject) => QuantityChanged?.Invoke(activeObject, totalObject);
+
+    protected void ReturnObjectInPool(T obj)
+    {
+        PoolObject.ReturnObject(obj);
+        UpdateScore(ActiveObjects--, PoolObject.CountObject());
+    }
 }

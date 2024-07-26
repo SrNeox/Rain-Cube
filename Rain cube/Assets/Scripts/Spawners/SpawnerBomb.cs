@@ -21,7 +21,6 @@ public class SpawnerBomb : SpawnerBase<Bomb>
     private void ReturnBomb(Bomb bomb)
     {
         bomb.OnDestroy -= ReturnBomb;
-        PoolObject.ReturnObject(bomb);
-        UpdateScore(ActiveObjects--, PoolObject.CountObject());
+        ReturnObjectInPool(bomb);
     }
 }
